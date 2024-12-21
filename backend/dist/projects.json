@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Project Management Tool",
+        "content": "A tool to manage tasks and projects for teams.",
+        "info1": "Uses WebSockets for real-time updates.",
+        "info2": "Supports task assignment and timeline management.",
+        "image": "https://i.ibb.co/XFYR5GK/project1.jpg"
+    },
+    {
+        "title": "Paytm wallet",
+        "content": "A wallet app for INR transactions.",
+        "info1": "Peer-to-peer and bank integration.",
+        "info2": "Secured with database transaction safety.",
+        "image": "https://i.ibb.co/wzC0WmY/project2.jpg"
+    },
+    {
+        "title": "Flipkart e-commerce",
+        "content": "A platform for online shopping with recommendations.",
+        "info1": "Uses AI for personalized recommendations.",
+        "info2": "Integrated payment gateway support.",
+        "image": "https://i.ibb.co/QPfX7q7/project3.jpg"
+    },
+    {
+        "title": "Paytm wallet",
+        "content": "A wallet app for INR transactions.",
+        "info1": "Peer-to-peer and bank integration.",
+        "info2": "Secured with database transaction safety.",
+        "image": "https://i.ibb.co/RCMCFjw/project4.jpg"
+    },
+    {
+        "title": "Project Management Tool",
+        "content": "A tool to manage tasks and projects for teams.",
+        "info1": "Uses WebSockets for real-time updates.",
+        "info2": "Supports task assignment and timeline management.",
+        "image": "https://i.ibb.co/XFYR5GK/project1.jpg"
+    },
+    {
+        "title": "Paytm wallet",
+        "content": "A wallet app for INR transactions.",
+        "info1": "Peer-to-peer and bank integration.",
+        "info2": "Secured with database transaction safety.",
+        "image": "https://i.ibb.co/wzC0WmY/project2.jpg"
+    },
+    {
+        "title": "E-commerce Platform",
+        "content": "A platform for online shopping with recommendations.",
+        "info1": "Uses AI for personalized recommendations.",
+        "info2": "Integrated payment gateway support.",
+        "image": "https://i.ibb.co/QPfX7q7/project3.jpg"
+    },
+    {
+        "title": "Paytm wallet",
+        "content": "A wallet app for INR transactions.",
+        "info1": "Peer-to-peer and bank integration.",
+        "info2": "Secured with database transaction safety.",
+        "image": "https://i.ibb.co/RCMCFjw/project4.jpg"
+    }
+]

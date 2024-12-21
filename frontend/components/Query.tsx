@@ -1,10 +1,11 @@
-import React from 'react'
+'use client'
+
 import icon8 from '@/assets/icon8.png'
-import icon9 from '@/assets/icon9.png'
 import Image from 'next/image'
 import { Input } from './ui/input'
 
-const Query = () => {
+const Query = ({inputHandler}: {inputHandler: (value: string)=> void}) => {
+
   return (
     <div className='w-full'>
         <div className="flex gap-6">
@@ -13,7 +14,8 @@ const Query = () => {
                 <div className='text-black'>Filter</div>
             </div>
 
-            <Input placeholder='Search a Project' />
+            <Input placeholder='Search a project by title' 
+            onChange={(e)=> inputHandler(e.target.value)} />
         </div>
     </div>
   )

@@ -1,6 +1,4 @@
 import Navbar from "@/components/Navbar";
-import PortfolioNavbar from "@/components/PortfolioNavbar";
-import Query from "@/components/Query";
 import { Card } from "@/components/ui/card";
 import icon10 from '@/assets/icon10.png'
 import icon11 from '@/assets/icon11.png'
@@ -27,10 +25,10 @@ export default function Layout({
                             <Image src={icon11} alt="bell" />
                         </div>
                     </div>
-                    <div className="w-full flex flex-col xl:flex-row justify-between items-center mb-10 gap-4 xl:gap-40">
-                        <PortfolioNavbar />
+                    {/* <div className="w-full flex flex-col xl:flex-row justify-between items-center mb-10 gap-4 xl:gap-40">
                         <Query />
-                    </div>
+                        <PortfolioNavbar />
+                    </div> */}
                     {children}
                 </Card>
             </div>
