@@ -7,7 +7,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel,
 
 const Navbar = () => {
   return (
-    <div className='bg-white border-b border-gray-300 w-full py-4 pr-8 flex justify-end'>
+    <div className='bg-white border-b border-gray-300 w-full py-4 pr-8 hidden lg:flex justify-end'>
       <div className="flex gap-6 items-center">
         <Image src={icon6} alt='bell' />
         <div className="flex gap-2 items-center">

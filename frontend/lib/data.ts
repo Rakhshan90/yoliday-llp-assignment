@@ -3,6 +3,7 @@ import icon2 from '@/assets/icon2.png'
 import icon3 from '@/assets/icon3.png'
 import icon4 from '@/assets/icon4.png'
 import project1 from '@/assets/project1.jpg'
+import { Home, FolderOpen, PenSquare, User } from 'lucide-react'
 
 export const sidebar = [
     {
@@ -76,5 +77,28 @@ export const projects = [
         content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci maiores voluptatum dolores vero, eos reprehenderit repellendus! Id atque ipsum natus veniam nostrum qui similique, vitae obcaecati tempore? Explicabo quis omnis voluptates eveniet ipsum quos consequatur quae dolorum? Quasi, mollitia. Voluptate!',
         text1: 'BAHASA SUNDA',
         text2: 'Lorem ipsum dolor sit'
+    },
+]
+
+export const mobileNav = [
+    {
+        name: 'Dashboard',
+        icon: Home,
+        path: '/',
+    },
+    {
+        name: 'Portfolio',
+        icon: FolderOpen,
+        path: '/portfolio',
+    },
+    {
+        name: 'Inputs',
+        icon: PenSquare,
+        path: '/inputs',
+    },
+    {
+        name: 'Profile',
+        icon: User,
+        path: '/profile',
     },
 ]

@@ -8,7 +8,7 @@ const page = () => {
       <Navbar />
       <div className="m-8">
         <Card className="p-4 rounded-xl">
-          Dashboard page
+          Inputs page
         </Card>
       </div>
     </div>

@@ -8,7 +8,7 @@ const Query = () => {
   return (
     <div className='w-full'>
         <div className="flex gap-6">
-            <div className="flex gap-2 items-center">
+            <div className="hidden xl:flex gap-2 items-center">
                 <Image src={icon8} alt='filter' className='w-6'/>
                 <div className='text-black'>Filter</div>
             </div>
