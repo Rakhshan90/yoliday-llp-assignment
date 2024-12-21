@@ -21,14 +21,15 @@ const getProjectsData = () => {
 };
 // Updated /projects route
 app.get('/projects', (req, res) => {
-    const { title, content } = req.query;
+    const { title } = req.query;
     const projects = getProjectsData();
     let filteredProjects = projects;
-    if (title || content) {
+    if (title) {
         filteredProjects = projects.filter(project => {
             const matchesTitle = title ? project.title.toLowerCase().includes(String(title).toLowerCase()) : true;
-            const matchesContent = content ? project.content.toLowerCase().includes(String(content).toLowerCase()) : true;
-            return matchesTitle && matchesContent;
+            // const matchesContent = content ? project.content.toLowerCase().includes(String(content).toLowerCase()) : true;
+            // return matchesTitle && matchesContent;
+            return matchesTitle;
         });
     }
     res.status(200).json(filteredProjects);
